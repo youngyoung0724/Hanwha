@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+@media (max-width: 1023px) {
+    /* banner */
+    .banner .wrap{
+        width: 100%;
+    }
+
+    /* page */
+    .page{
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    /* customer */
+    .customer{
+        margin-top: 80px;
+    }
+    .customer .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    /* customer_boxs */
+    .customer_boxs .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .customer_boxs .wrap .boxs{
+        margin-right: 0;
+    }
+    
+    .customer_boxs .wrap .boxs .box .txt h1{
+        font-size: 20px;
+    }
+
+    /* aggree */
+    .aggree .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .aggree .wrap .textarea{
+        width: 100%;
+    }
+    .aggree .wrap .agree_check{
+        position:static;
+        justify-content: flex-end;
+    }
+
+    /* myself */
+    .myself .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .myself .wrap .ipin{
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        position: relative;
+    }
+    .myself .wrap .ipin .txt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .myself .wrap .ipin a{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    article .top_btn img{
+        position:static;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width: 767px){
+    /* banner */
+    .banner{
+        height: 200px;
+    }
+    .banner .wrap p{
+        width: 100%;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 200px;
+    }
+    /* page */
+    .page{
+        display: none;
+    }
+
+    /* customer */
+    .customer .wrap{
+        padding: 0 20px;
+    }
+    .customer .wrap .title h2{
+        line-height: 25px;
+    }
+    .customer .wrap .hompage_qna{
+    }
+    .customer .wrap .hompage_qna .qna{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .customer .wrap .hompage_qna .qna a{
+        width: 140px;
+        height: 40px;
+        /* margin-top: 20px; */
+        margin: 20px auto;
+    }   
+
+    /* customer_boxs */
+    .customer_boxs{
+        margin-top: 0;
+    }
+    .customer_boxs .wrap{
+        padding: 0 20px;
+    }
+    .customer_boxs .wrap .boxs .box {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .customer_boxs .wrap .boxs{
+        margin-right: 3px;
+    }
+    .customer_boxs .wrap .boxs .box {
+        width: calc(100% / 3 - 5px);
+        position: relative;
+    }
+    .customer_boxs .wrap .boxs .box p{
+        margin-top: 10px;
+    }
+    .customer_boxs .wrap .boxs .box .txt h1{
+        font-size: 16px;
+    }
+    .customer_boxs .wrap .boxs .box .icon{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .customer_boxs .wrap .boxs .box:nth-child(1) .icon{
+        display: none;
+    }
+
+    .aggree .wrap .boxs .box{
+        display: none;
+    }
+
+    .aggree .wrap .boxs .mobile{
+        display: block;
+        width: 100%;
+        height: 46px;  
+        background-color: #f47321;
+    }
+    .aggree .wrap .boxs .mobile p{
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        line-height: 46px;
+    } 
+
+    /* myself */
+    .myself .wrap{
+        padding: 0 20px;
+    }
+
+    .myself .wrap .ipin{
+        height: 235px;
+    }
+    .myself .wrap .ipin .txt{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0 23px;
+
+    }
+    .myself .wrap .ipin .txt p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .myself .wrap .ipin a{
+        position: static;
+        margin: 0 auto;
+    }
+    .myself .wrap .btns button{
+        width: 50%;
+    }
+    
+
+}

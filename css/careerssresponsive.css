@@ -1,0 +1,137 @@
+@charset "utf-8";
+@media (max-width: 1023px) {
+    /* banner */
+    .banner{
+        height: 310px;
+    }
+    .banner .wrap{
+        width: 100%;
+
+    }
+
+    /* page */
+    .page{
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    /* person */
+    .person .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .person .wrap .boxs .box .title{
+        margin-bottom: 40px;
+    }
+
+    /* middle_banner */
+    .middle_banner .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .middle_banner .wrap .txt_part{
+        padding: 0;
+    }
+
+
+    .middle_banner .wrap .performance{
+        width: 260px;
+        height: 215px;
+    }
+
+    /* talent */
+    .talent .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .talent .wrap .boxs .box .img{
+        height: 160px;
+    }
+    .talent .wrap .boxs .box .img .icon{
+        width: 60px;
+        height: 60px;
+    }
+    .talent .wrap .boxs .box .img p{
+        font-size: 14px;
+    }
+    article .top_btn img{
+        position:static;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+@media (max-width: 767px){
+        /* banner */
+    .banner{
+        height: 200px;
+    }
+    .banner .wrap p{
+        width: 100%;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 200px;
+    }
+
+    /* page */
+    .page{
+        display: none;
+    }
+
+    /* person */
+    .person .wrap{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .person .wrap .boxs .box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    /* middle_banner */
+    .middle_banner{
+        margin-top: 50px;
+        height: 650px;
+    }
+    .middle_banner .wrap{
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle_banner .wrap .txt_part{
+        width: 100%;
+        padding: 0;
+        position:static;
+        margin-top: 200px;
+    }
+
+    .middle_banner .wrap .performance{
+        position:static;
+        margin-top: 50px;
+    }
+    .talent{
+        padding-bottom:30px;
+    }
+
+    .talent .wrap .boxs .box{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .talent .wrap .boxs .box .img{
+        width: 90%;
+        height: 160px;
+        margin: 0 auto;
+    }
+    .talent .wrap .boxs .box .img p{
+        font-size: 20px;
+    }
+
+}

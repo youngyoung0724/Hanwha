@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+@media (max-width: 1023px) {
+    /* banner */
+    .banner .wrap{
+        width: 100%;
+    }
+
+    /* page */
+    .page{
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    /* hanwhaword */
+    .hanwhaword .wrap{
+        width: 100%;
+        padding: 0 30px;
+        position: relative;
+    }
+    
+    .hanwhaword .wrap .box .txtbox{
+        padding: 0;
+    }
+    .hanwhaword .wrap .box .logo{
+        position: absolute;
+        top: 20%;
+        right: 5px;
+    }
+    
+    .hanwhaword .wrap .box .logo img{
+        width: 100px;
+        height: 100px;
+        display: block;
+    }
+
+    /* donation  */
+    .donation{
+        height: 600px;
+    }
+    .donation .wrap{
+        width: 100%;
+        height: 100%;
+    }
+    .donation .wrap .txt_box{
+        flex-direction: column;
+    }
+    .donation .wrap .txt_box .txt{
+        width: 580px;
+        top: 75%;
+        left: 100px;
+    }
+    .donation .wrap .txt_box .logo img{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* welfare */
+    .welfare .wrap{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    article .top_btn img{
+        position:static;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    /* banner */
+    .banner{
+        height: 200px;
+    }
+    .banner .wrap p{
+        width: 100%;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 200px;
+    }
+    /* page */
+    .page{
+        display: none;
+    }
+
+    /* hanwhaword */
+    .hanwhaword .wrap .box .txtbox .toptxt p{
+        font-size: 24px;
+    }
+
+    .hanwhaword .wrap .box{
+        width: 100%;
+        position: relative;
+    }
+
+    .hanwhaword .wrap .box .logo{
+        position: absolute;
+        right: 10%;
+        top: 20%;
+    }
+
+    .hanwhaword .wrap .box .logo img{
+        width: 200px;
+        height: 200px;
+        opacity: 0.5;
+    }
+
+    /* donation  */
+    .donation .wrap .txt_box .txt{
+        width: 100%;
+        padding: 0 20px;
+        top: 400px;
+        left: 0;
+    }
+
+
+    .donation .wrap .txt_box .logo img{
+        width: 300px;
+        height: 300px;
+    }
+
+    /* welfare */
+    .welfare {
+        padding-bottom: 50px;
+    }
+    .welfare .wrap{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .welfare .wrap .welfare_boxs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .welfare .wrap .welfare_boxs .box{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+}

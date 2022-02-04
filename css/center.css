@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+article{
+    position: relative;
+}
+/* banner */
+.banner{
+    margin-top: 90px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/prcenter/bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.banner .wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner .wrap p{
+    font-size: 24px;
+    font-weight:700;
+    color: #fff;
+    text-align: center;
+    line-height: 300px;
+}
+
+/* page */
+.page{
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.page li{}
+.page li a{
+    font-size: 14px;
+    color: #555;
+    margin-right: 10px;
+}
+
+.page li:nth-child(2) a img{
+    height: 15px;
+    padding-top: 4px;
+}
+.page li:nth-child(3) a{
+    font-weight: 700;
+    margin-right: 0;
+}
+
+/* hanwhaword */
+.hanwhaword{
+    margin-top: 95px;
+}
+.hanwhaword .wrap{
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.hanwhaword .wrap .box{
+    display: flex;
+    justify-content: space-between;
+}
+.hanwhaword .wrap .box .txtbox{ 
+    padding: 0 170px 0 0;
+}
+.hanwhaword .wrap .box .txtbox .toptxt{
+}
+.hanwhaword .wrap .box .txtbox .toptxt p{
+    font-size: 30px;
+    color: #555;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.hanwhaword .wrap .box .txtbox img{
+    display: block;
+}
+
+.hanwhaword .wrap .box .txtbox .bottomtxt{
+    margin-top: 40px;
+}
+.hanwhaword .wrap .box .txtbox .bottomtxt p{
+    font-size: 14px;
+    color: #555;
+    line-height: 25px;
+}
+
+.hanwhaword .wrap .box .logo{
+    display: block;
+    margin-right: 100px;
+}
+
+/* donation */
+.donation{
+    width: 100%;
+    height: 480px;
+    background-image: url(../img/prcenter/bg2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: block;
+    margin-top: 90px;
+}
+.donation .wrap{
+    width: 1200px;
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.donation .wrap .txt_box{
+    display: flex;
+    justify-content: space-between;
+}
+.donation .wrap .txt_box .logo{
+    width: 50%;
+}
+.donation .wrap .txt_box .logo img{
+    display: block;
+    position: absolute;
+    top: -60px;
+    left: 100px;
+}
+
+.donation .wrap .txt_box .txt{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.donation .wrap .txt_box .txt h2{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.donation .wrap .txt_box .txt h1{
+    font-size: 40px;
+    color: #f47321;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.donation .wrap .txt_box .txt p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+
+/* welfare */
+.welfare{
+    margin-top: 110px;
+    padding-bottom: 80px;
+}
+.welfare .wrap{
+    width: 1200px;
+    /* height: 480px; */
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.welfare .wrap .welfare_boxs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.welfare .wrap .welfare_boxs .box{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+}
+.welfare .wrap .welfare_boxs .box .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 20px;
+}
+.welfare .wrap .welfare_boxs .box .bar{
+    width: 41px;
+    height: 3px;
+    background-image: url(../img/prcenter/border_orange.png);
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 20px;
+}
+.welfare .wrap .welfare_boxs .box p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.welfare .wrap .welfare_boxs .box .img{
+    width: 100%;
+    height: 225px;
+    /* background-image: url(../img/prcenter/content_img1.jpg); */
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 20px;
+}
+/* top_button */
+article .top_btn{
+    cursor: pointer;
+}
+article .top_btn img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
