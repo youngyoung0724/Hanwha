@@ -154,6 +154,11 @@
         display: none;
     }
 
+    /* aggree */
+    .aggree .wrap {
+        padding: 0 20px;
+    }
+
     .aggree .wrap .boxs .box{
         display: none;
     }
