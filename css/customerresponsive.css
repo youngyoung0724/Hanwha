@@ -187,6 +187,7 @@
 
     }
     .myself .wrap .ipin .txt p{
+        padding-top: 15px;
         font-size: 13px;
         text-align: center;
     }

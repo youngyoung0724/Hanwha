@@ -390,6 +390,7 @@ footer .wrap .sns{
 }
 footer .wrap .sns .sns_icon{
     display: flex;
+    justify-content: flex-end;
 }
 footer .wrap .sns .sns_icon ul{
     display: flex;
