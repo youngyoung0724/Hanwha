@@ -15,6 +15,9 @@
         width: 900px;
         margin-top: -65px;
     }
+    .banner_02 .wrap .txt_part{
+        padding: 0;
+    }
     .banner_02 .wrap .txt_part ul li:nth-child(1) a{
         font-size: 26px;
     }
@@ -83,9 +86,10 @@
     .banner_02 .wrap{
         width: 450px;
         height: 150px;
+        padding: 0;
     }
     .banner_02 .wrap .txt_part{
-        padding: 20px;
+        padding: 20px 10px;
     }
     .banner_02 .wrap .txt_part img{
         width: 55px;
@@ -95,7 +99,7 @@
         font-size: 20px;
     }
     .banner_02 .wrap .txt_part ul li:nth-child(2) {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     /* page */

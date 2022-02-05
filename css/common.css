@@ -379,6 +379,7 @@ footer .wrap .count1 .footer_menu .menu2 > li > a{
     display: block;
     /* padding: 0 10px; */
     line-height: 20px;
+    text-align: center;
 }
 footer .wrap .count1 .footer_menu .menu2 > li.mobile{
     display: none; 

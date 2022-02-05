@@ -92,6 +92,7 @@
     /* management */
     .management .wrap{
         height: 1300px;
+        padding: 0 30px;
     }
     .management .wrap .title p{
         font-size: 20px;
@@ -103,12 +104,18 @@
         background-position: 50% 50%;
     }
     .management .wrap .boxs .box{
-        width: 100%;
-        height: 400px;
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        padding: 0 10px;
     }
+    .management .wrap .boxs .box .txt_part h2{
+        font-size: 20px;
+    }
+
     .management .wrap .boxs .box .txt_part p{
         display: block;
-        font-size: 14px;
+        font-size: 13px;
     }
     .management .wrap .mobile{
         display: none;
